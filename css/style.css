@@ -58,6 +58,7 @@ nav ul {
 }
 nav a {
   color: var(--navfont);
+  text-decoration: none;
 }
 h1 {
   font-size: 3rem;
