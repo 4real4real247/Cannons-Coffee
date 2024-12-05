@@ -46,6 +46,10 @@ span {
 nav {
   margin-right: 2rem;
 }
+svg {
+  width: 20px;
+  height: 20px;
+}
 nav ul {
   display: flex;
   flex-flow: row wrap;
@@ -69,6 +73,7 @@ h2 {
   line-height: 1.1667;
   text-transform: uppercase;
 }
+
 /* was tring grid first and i was having issues with grid placment 
 side by side with a big space bewteen the <h1> and <p> so then i 
 decided to try flexbox and im just not getting it still having issues*/
