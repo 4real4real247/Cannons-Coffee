@@ -49,7 +49,9 @@ nav {
 svg {
   width: 20px;
   height: 20px;
+  background-color: #ffffff;
 }
+
 nav ul {
   display: flex;
   flex-flow: row wrap;
@@ -64,6 +66,7 @@ nav a {
   color: var(--navfont);
   text-decoration: none;
 }
+
 h1 {
   font-size: 3rem;
   line-height: 1.1667;
@@ -144,6 +147,7 @@ button {
   color: #ffffff;
   border-radius: 12px;
   text-transform: uppercase;
+  border-color: #ffffff;
 }
 footer {
   color: #ffffff;
@@ -174,6 +178,9 @@ footer {
   header {
     justify-content: center;
   }
+  .hidden {
+    display: none;
+  }
 }
 
 @media (min-width: 1005px) {
@@ -188,5 +195,26 @@ footer {
   }
   header {
     justify-content: space-between;
+  }
+  .hidden {
+    display: none;
+  }
+}
+@media (max-width: 699px) {
+  .hidden {
+    display: block;
+    margin: 1rem auto;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  svg {
+    display: none;
+  }
+
+  .visible {
+    display: block;
   }
 }
